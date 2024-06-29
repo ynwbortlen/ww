@@ -387,9 +387,9 @@ end
 -- // Toggle Feature // -- @canyoulovemeback on discord / supercoolboi34
 local function toggleFeature()
     getgenv().SharpSSilent.Enabled = not getgenv().SharpSSilent.Enabled
-    local status = getgenv().SharpSSilent.Enabled and "Sharp Enabled" or "Sharp Disabled"
+    local status = getgenv().SharpSSilent.Enabled and "Silent Enabled" or "Silent Disabled"
     if not getgenv().SharpSSilent.ToggleNotification then
-        sendNotification("Sharp [S] Silent", status, "rbxassetid://17561420493")
+        sendNotification("TV2 [S] Silent", status, "rbxassetid://17561420493")
     end
     if not getgenv().SharpSSilent.Enabled then
         Fov.Visible = false
